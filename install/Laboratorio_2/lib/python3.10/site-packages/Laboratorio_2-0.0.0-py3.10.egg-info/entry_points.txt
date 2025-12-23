@@ -1,0 +1,3 @@
+[console_scripts]
+lab_2_es1_runner = Laboratorio_2.main:main
+

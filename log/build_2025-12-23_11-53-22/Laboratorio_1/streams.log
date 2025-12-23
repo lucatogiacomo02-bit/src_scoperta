@@ -1,0 +1,37 @@
+[1.002s] Invoking command in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_1': PYTHONPATH=/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Laboratorio_1 build --build-base /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/build install --record /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/install.log --single-version-externally-managed install_data
+[1.144s] running egg_info
+[1.144s] creating ../../build/Laboratorio_1/Laboratorio_1.egg-info
+[1.144s] writing ../../build/Laboratorio_1/Laboratorio_1.egg-info/PKG-INFO
+[1.144s] writing dependency_links to ../../build/Laboratorio_1/Laboratorio_1.egg-info/dependency_links.txt
+[1.144s] writing entry points to ../../build/Laboratorio_1/Laboratorio_1.egg-info/entry_points.txt
+[1.144s] writing requirements to ../../build/Laboratorio_1/Laboratorio_1.egg-info/requires.txt
+[1.144s] writing top-level names to ../../build/Laboratorio_1/Laboratorio_1.egg-info/top_level.txt
+[1.144s] writing manifest file '../../build/Laboratorio_1/Laboratorio_1.egg-info/SOURCES.txt'
+[1.144s] reading manifest file '../../build/Laboratorio_1/Laboratorio_1.egg-info/SOURCES.txt'
+[1.144s] writing manifest file '../../build/Laboratorio_1/Laboratorio_1.egg-info/SOURCES.txt'
+[1.144s] running build
+[1.144s] running build_py
+[1.144s] creating /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/build
+[1.144s] creating /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/build/lib
+[1.144s] creating /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/build/lib/Laboratorio_1
+[1.144s] copying Laboratorio_1/main.py -> /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/build/lib/Laboratorio_1
+[1.144s] copying Laboratorio_1/__init__.py -> /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/build/lib/Laboratorio_1
+[1.144s] running install
+[1.145s] running install_lib
+[1.145s] creating /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/lib/python3.10/site-packages/Laboratorio_1
+[1.145s] copying /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/build/lib/Laboratorio_1/main.py -> /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/lib/python3.10/site-packages/Laboratorio_1
+[1.145s] copying /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/build/lib/Laboratorio_1/__init__.py -> /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/lib/python3.10/site-packages/Laboratorio_1
+[1.145s] byte-compiling /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/lib/python3.10/site-packages/Laboratorio_1/main.py to main.cpython-310.pyc
+[1.145s] byte-compiling /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/lib/python3.10/site-packages/Laboratorio_1/__init__.py to __init__.cpython-310.pyc
+[1.145s] running install_data
+[1.145s] creating /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/share/ament_index
+[1.145s] creating /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/share/ament_index/resource_index
+[1.145s] creating /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/share/ament_index/resource_index/packages
+[1.145s] copying resource/Laboratorio_1 -> /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/share/ament_index/resource_index/packages
+[1.145s] copying package.xml -> /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/share/Laboratorio_1
+[1.145s] running install_egg_info
+[1.166s] Copying ../../build/Laboratorio_1/Laboratorio_1.egg-info to /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/lib/python3.10/site-packages/Laboratorio_1-0.0.0-py3.10.egg-info
+[1.166s] running install_scripts
+[1.190s] Installing lab_1_runner script to /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/lib/Laboratorio_1
+[1.191s] writing list of installed files to '/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/install.log'
+[1.224s] Invoked command in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_1' returned '0': PYTHONPATH=/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Laboratorio_1 build --build-base /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/build install --record /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/install.log --single-version-externally-managed install_data

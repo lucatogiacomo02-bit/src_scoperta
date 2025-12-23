@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../build/Laboratorio_1/Laboratorio_1.egg-info/PKG-INFO
+../../build/Laboratorio_1/Laboratorio_1.egg-info/SOURCES.txt
+../../build/Laboratorio_1/Laboratorio_1.egg-info/dependency_links.txt
+../../build/Laboratorio_1/Laboratorio_1.egg-info/entry_points.txt
+../../build/Laboratorio_1/Laboratorio_1.egg-info/requires.txt
+../../build/Laboratorio_1/Laboratorio_1.egg-info/top_level.txt
+../../build/Laboratorio_1/Laboratorio_1.egg-info/zip-safe
+Laboratorio_1/__init__.py
+Laboratorio_1/main.py
+resource/Laboratorio_1
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

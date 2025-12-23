@@ -1,0 +1,425 @@
+[0.101s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.101s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x74538d589b40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x74538cd1c5e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x74538cd1c5e0>>, mixin_verb=('build',))
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.193s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/giacomo/Desktop/scoperta_ws'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.193s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_1) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_1) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_1) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_1) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_1) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_1) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_1) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_1) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_1) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Laboratorio_1' with type 'ros.ament_python' and name 'Laboratorio_1'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Laboratorio_2' with type 'ros.ament_python' and name 'Laboratorio_2'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2_es2) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2_es2) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2_es2) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2_es2) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2_es2) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2_es2) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2_es2) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2_es2) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_2_es2) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Laboratorio_2_es2' with type 'ros.ament_python' and name 'Laboratorio_2_es2'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3) by extension 'ignore_ament_install'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3) by extensions ['colcon_pkg']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3) by extension 'colcon_pkg'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3) by extensions ['colcon_meta']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3) by extension 'colcon_meta'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3) by extensions ['ros']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Laboratorio_3' with type 'ros.ament_python' and name 'Laboratorio_3'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3_es2) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3_es2) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3_es2) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3_es2) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3_es2) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3_es2) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3_es2) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3_es2) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_3_es2) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Laboratorio_3_es2' with type 'ros.ament_python' and name 'Laboratorio_3_es2'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_4) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_4) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_4) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_4) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_4) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_4) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_4) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_4) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_4) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Laboratorio_4' with type 'ros.ament_python' and name 'Laboratorio_4'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_5) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_5) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_5) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_5) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_5) by extension 'colcon_pkg'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_5) by extensions ['colcon_meta']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_5) by extension 'colcon_meta'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_5) by extensions ['ros']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/Laboratorio_5) by extension 'ros'
+[0.211s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Laboratorio_5' with type 'ros.ament_python' and name 'Laboratorio_5'
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.250s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_1' build argument 'cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_1' build argument 'cmake_target' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_1' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_1' build argument 'cmake_force_configure' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_1' build argument 'ament_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.251s] DEBUG:colcon.colcon_core.verb:Building package 'Laboratorio_1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1', 'merge_install': False, 'path': '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_1', 'symlink_install': False, 'test_result_base': None}
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2' build argument 'cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2' build argument 'cmake_target' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2' build argument 'cmake_force_configure' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2' build argument 'ament_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.251s] DEBUG:colcon.colcon_core.verb:Building package 'Laboratorio_2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2', 'merge_install': False, 'path': '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_2', 'symlink_install': False, 'test_result_base': None}
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2_es2' build argument 'cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2_es2' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2_es2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2_es2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2_es2' build argument 'cmake_clean_first' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2_es2' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2_es2' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2_es2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_2_es2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'Laboratorio_2_es2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_2_es2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2', 'merge_install': False, 'path': '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_2_es2', 'symlink_install': False, 'test_result_base': None}
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3' build argument 'cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3' build argument 'cmake_clean_first' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'Laboratorio_3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3', 'merge_install': False, 'path': '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_3', 'symlink_install': False, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3_es2' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3_es2' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3_es2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3_es2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3_es2' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3_es2' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3_es2' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3_es2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_3_es2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'Laboratorio_3_es2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_3_es2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2', 'merge_install': False, 'path': '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_3_es2', 'symlink_install': False, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_4' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_4' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_4' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_4' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_4' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_4' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_4' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_4' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_4' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'Laboratorio_4' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_4', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4', 'merge_install': False, 'path': '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_4', 'symlink_install': False, 'test_result_base': None}
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_5' build argument 'cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_5' build argument 'cmake_target' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_5' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_5' build argument 'cmake_clean_cache' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_5' build argument 'cmake_clean_first' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_5' build argument 'cmake_force_configure' from command line to 'False'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_5' build argument 'ament_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_5' build argument 'catkin_cmake_args' from command line to 'None'
+[0.253s] Level 5:colcon.colcon_core.verb:set package 'Laboratorio_5' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.253s] DEBUG:colcon.colcon_core.verb:Building package 'Laboratorio_5' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_5', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5', 'merge_install': False, 'path': '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_5', 'symlink_install': False, 'test_result_base': None}
+[0.254s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.255s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.255s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_1' with build type 'ament_python'
+[0.255s] Level 1:colcon.colcon_core.shell:create_environment_hook('Laboratorio_1', 'ament_prefix_path')
+[0.257s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/share/Laboratorio_1/hook/ament_prefix_path.ps1'
+[0.257s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/share/Laboratorio_1/hook/ament_prefix_path.dsv'
+[0.258s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/share/Laboratorio_1/hook/ament_prefix_path.sh'
+[0.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.265s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_2' with build type 'ament_python'
+[0.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('Laboratorio_2', 'ament_prefix_path')
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/share/Laboratorio_2/hook/ament_prefix_path.ps1'
+[0.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/share/Laboratorio_2/hook/ament_prefix_path.dsv'
+[0.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/share/Laboratorio_2/hook/ament_prefix_path.sh'
+[0.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.267s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.269s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_2_es2' with build type 'ament_python'
+[0.269s] Level 1:colcon.colcon_core.shell:create_environment_hook('Laboratorio_2_es2', 'ament_prefix_path')
+[0.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/share/Laboratorio_2_es2/hook/ament_prefix_path.ps1'
+[0.271s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/share/Laboratorio_2_es2/hook/ament_prefix_path.dsv'
+[0.271s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/share/Laboratorio_2_es2/hook/ament_prefix_path.sh'
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.280s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_3' with build type 'ament_python'
+[0.280s] Level 1:colcon.colcon_core.shell:create_environment_hook('Laboratorio_3', 'ament_prefix_path')
+[0.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/share/Laboratorio_3/hook/ament_prefix_path.ps1'
+[0.281s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/share/Laboratorio_3/hook/ament_prefix_path.dsv'
+[0.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/share/Laboratorio_3/hook/ament_prefix_path.sh'
+[0.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.468s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_1'
+[0.468s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.468s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.611s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_2'
+[0.611s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.611s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.764s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_2_es2'
+[0.765s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.765s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.929s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_3'
+[0.929s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.929s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.232s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_2_es2': PYTHONPATH=/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_2_es2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Laboratorio_2_es2 build --build-base /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_2_es2/build install --record /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_2_es2/install.log --single-version-externally-managed install_data
+[1.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_2': PYTHONPATH=/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Laboratorio_2 build --build-base /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_2/build install --record /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_2/install.log --single-version-externally-managed install_data
+[1.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_1': PYTHONPATH=/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Laboratorio_1 build --build-base /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/build install --record /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/install.log --single-version-externally-managed install_data
+[1.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_3': PYTHONPATH=/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Laboratorio_3 build --build-base /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_3/build install --record /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_3/install.log --single-version-externally-managed install_data
+[1.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_1' returned '0': PYTHONPATH=/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Laboratorio_1 build --build-base /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/build install --record /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_1/install.log --single-version-externally-managed install_data
+[1.490s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1' for CMake module files
+[1.490s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1' for CMake config files
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/lib'
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/bin'
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/lib/pkgconfig/Laboratorio_1.pc'
+[1.491s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/lib/python3.10/site-packages'
+[1.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('Laboratorio_1', 'pythonpath')
+[1.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/share/Laboratorio_1/hook/pythonpath.ps1'
+[1.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/share/Laboratorio_1/hook/pythonpath.dsv'
+[1.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/share/Laboratorio_1/hook/pythonpath.sh'
+[1.494s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/bin'
+[1.494s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Laboratorio_1)
+[1.494s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/share/Laboratorio_1/package.ps1'
+[1.495s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/share/Laboratorio_1/package.dsv'
+[1.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/share/Laboratorio_1/package.sh'
+[1.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/share/Laboratorio_1/package.bash'
+[1.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/share/Laboratorio_1/package.zsh'
+[1.497s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_1/share/colcon-core/packages/Laboratorio_1)
+[1.498s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_3_es2' with build type 'ament_python'
+[1.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('Laboratorio_3_es2', 'ament_prefix_path')
+[1.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/share/Laboratorio_3_es2/hook/ament_prefix_path.ps1'
+[1.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/share/Laboratorio_3_es2/hook/ament_prefix_path.dsv'
+[1.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/share/Laboratorio_3_es2/hook/ament_prefix_path.sh'
+[1.500s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.500s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.504s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2' for CMake module files
+[1.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_2_es2' returned '0': PYTHONPATH=/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_2_es2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Laboratorio_2_es2 build --build-base /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_2_es2/build install --record /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_2_es2/install.log --single-version-externally-managed install_data
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2' for CMake config files
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/lib'
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/bin'
+[1.506s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/lib/pkgconfig/Laboratorio_2_es2.pc'
+[1.507s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/lib/python3.10/site-packages'
+[1.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('Laboratorio_2_es2', 'pythonpath')
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/share/Laboratorio_2_es2/hook/pythonpath.ps1'
+[1.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/share/Laboratorio_2_es2/hook/pythonpath.dsv'
+[1.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/share/Laboratorio_2_es2/hook/pythonpath.sh'
+[1.508s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/bin'
+[1.508s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Laboratorio_2_es2)
+[1.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/share/Laboratorio_2_es2/package.ps1'
+[1.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/share/Laboratorio_2_es2/package.dsv'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/share/Laboratorio_2_es2/package.sh'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/share/Laboratorio_2_es2/package.bash'
+[1.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/share/Laboratorio_2_es2/package.zsh'
+[1.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2_es2/share/colcon-core/packages/Laboratorio_2_es2)
+[1.512s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_4' with build type 'ament_python'
+[1.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('Laboratorio_4', 'ament_prefix_path')
+[1.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/share/Laboratorio_4/hook/ament_prefix_path.ps1'
+[1.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/share/Laboratorio_4/hook/ament_prefix_path.dsv'
+[1.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/share/Laboratorio_4/hook/ament_prefix_path.sh'
+[1.514s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.514s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.522s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2' for CMake module files
+[1.523s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2' for CMake config files
+[1.526s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/lib'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/bin'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/lib/pkgconfig/Laboratorio_2.pc'
+[1.527s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/lib/python3.10/site-packages'
+[1.527s] Level 1:colcon.colcon_core.shell:create_environment_hook('Laboratorio_2', 'pythonpath')
+[1.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/share/Laboratorio_2/hook/pythonpath.ps1'
+[1.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_2' returned '0': PYTHONPATH=/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Laboratorio_2 build --build-base /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_2/build install --record /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_2/install.log --single-version-externally-managed install_data
+[1.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/share/Laboratorio_2/hook/pythonpath.dsv'
+[1.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/share/Laboratorio_2/hook/pythonpath.sh'
+[1.530s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/bin'
+[1.530s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Laboratorio_2)
+[1.531s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/share/Laboratorio_2/package.ps1'
+[1.531s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/share/Laboratorio_2/package.dsv'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/share/Laboratorio_2/package.sh'
+[1.532s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/share/Laboratorio_2/package.bash'
+[1.533s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/share/Laboratorio_2/package.zsh'
+[1.533s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_2/share/colcon-core/packages/Laboratorio_2)
+[1.534s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_5' with build type 'ament_python'
+[1.535s] Level 1:colcon.colcon_core.shell:create_environment_hook('Laboratorio_5', 'ament_prefix_path')
+[1.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/share/Laboratorio_5/hook/ament_prefix_path.ps1'
+[1.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/share/Laboratorio_5/hook/ament_prefix_path.dsv'
+[1.536s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/share/Laboratorio_5/hook/ament_prefix_path.sh'
+[1.537s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.537s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.714s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_3_es2'
+[1.714s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.714s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.868s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_4'
+[1.869s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.869s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.872s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3' for CMake module files
+[1.873s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_3' returned '0': PYTHONPATH=/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_3/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Laboratorio_3 build --build-base /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_3/build install --record /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_3/install.log --single-version-externally-managed install_data
+[1.874s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3' for CMake config files
+[1.875s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/lib'
+[1.875s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/bin'
+[1.875s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/lib/pkgconfig/Laboratorio_3.pc'
+[1.875s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/lib/python3.10/site-packages'
+[1.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('Laboratorio_3', 'pythonpath')
+[1.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/share/Laboratorio_3/hook/pythonpath.ps1'
+[1.876s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/share/Laboratorio_3/hook/pythonpath.dsv'
+[1.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/share/Laboratorio_3/hook/pythonpath.sh'
+[1.877s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/bin'
+[1.878s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Laboratorio_3)
+[1.878s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/share/Laboratorio_3/package.ps1'
+[1.878s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/share/Laboratorio_3/package.dsv'
+[1.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/share/Laboratorio_3/package.sh'
+[1.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/share/Laboratorio_3/package.bash'
+[1.880s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/share/Laboratorio_3/package.zsh'
+[1.880s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3/share/colcon-core/packages/Laboratorio_3)
+[2.059s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_5'
+[2.060s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.060s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_5': PYTHONPATH=/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Laboratorio_5 build --build-base /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_5/build install --record /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_5/install.log --single-version-externally-managed install_data
+[2.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_3_es2': PYTHONPATH=/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_3_es2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Laboratorio_3_es2 build --build-base /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_3_es2/build install --record /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_3_es2/install.log --single-version-externally-managed install_data
+[2.393s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_4': PYTHONPATH=/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Laboratorio_4 build --build-base /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_4/build install --record /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_4/install.log --single-version-externally-managed install_data
+[2.589s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5' for CMake module files
+[2.590s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_5' returned '0': PYTHONPATH=/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_5/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Laboratorio_5 build --build-base /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_5/build install --record /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_5/install.log --single-version-externally-managed install_data
+[2.591s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5' for CMake config files
+[2.591s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/lib'
+[2.591s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/bin'
+[2.591s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/lib/pkgconfig/Laboratorio_5.pc'
+[2.591s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/lib/python3.10/site-packages'
+[2.591s] Level 1:colcon.colcon_core.shell:create_environment_hook('Laboratorio_5', 'pythonpath')
+[2.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/share/Laboratorio_5/hook/pythonpath.ps1'
+[2.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/share/Laboratorio_5/hook/pythonpath.dsv'
+[2.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/share/Laboratorio_5/hook/pythonpath.sh'
+[2.593s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/bin'
+[2.593s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Laboratorio_5)
+[2.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/share/Laboratorio_5/package.ps1'
+[2.594s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/share/Laboratorio_5/package.dsv'
+[2.594s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/share/Laboratorio_5/package.sh'
+[2.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/share/Laboratorio_5/package.bash'
+[2.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/share/Laboratorio_5/package.zsh'
+[2.595s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/share/colcon-core/packages/Laboratorio_5)
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2' for CMake module files
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2' for CMake config files
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/lib'
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/bin'
+[2.611s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/lib/pkgconfig/Laboratorio_3_es2.pc'
+[2.612s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/lib/python3.10/site-packages'
+[2.612s] Level 1:colcon.colcon_core.shell:create_environment_hook('Laboratorio_3_es2', 'pythonpath')
+[2.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/share/Laboratorio_3_es2/hook/pythonpath.ps1'
+[2.612s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/share/Laboratorio_3_es2/hook/pythonpath.dsv'
+[2.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/share/Laboratorio_3_es2/hook/pythonpath.sh'
+[2.613s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/bin'
+[2.613s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Laboratorio_3_es2)
+[2.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/share/Laboratorio_3_es2/package.ps1'
+[2.613s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/share/Laboratorio_3_es2/package.dsv'
+[2.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/share/Laboratorio_3_es2/package.sh'
+[2.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/share/Laboratorio_3_es2/package.bash'
+[2.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/share/Laboratorio_3_es2/package.zsh'
+[2.614s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/share/colcon-core/packages/Laboratorio_3_es2)
+[2.615s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_3_es2' returned '0': PYTHONPATH=/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_3_es2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_3_es2/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Laboratorio_3_es2 build --build-base /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_3_es2/build install --record /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_3_es2/install.log --single-version-externally-managed install_data
+[2.624s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4' for CMake module files
+[2.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/giacomo/Desktop/scoperta_ws/src/Laboratorio_4' returned '0': PYTHONPATH=/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_4/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/Laboratorio_4 build --build-base /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_4/build install --record /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_4/install.log --single-version-externally-managed install_data
+[2.626s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4' for CMake config files
+[2.627s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/lib'
+[2.627s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/bin'
+[2.627s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/lib/pkgconfig/Laboratorio_4.pc'
+[2.627s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/lib/python3.10/site-packages'
+[2.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('Laboratorio_4', 'pythonpath')
+[2.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/share/Laboratorio_4/hook/pythonpath.ps1'
+[2.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/share/Laboratorio_4/hook/pythonpath.dsv'
+[2.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/share/Laboratorio_4/hook/pythonpath.sh'
+[2.628s] Level 1:colcon.colcon_core.environment:checking '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/bin'
+[2.629s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(Laboratorio_4)
+[2.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/share/Laboratorio_4/package.ps1'
+[2.629s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/share/Laboratorio_4/package.dsv'
+[2.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/share/Laboratorio_4/package.sh'
+[2.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/share/Laboratorio_4/package.bash'
+[2.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/share/Laboratorio_4/package.zsh'
+[2.631s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/giacomo/Desktop/scoperta_ws/install/Laboratorio_4/share/colcon-core/packages/Laboratorio_4)
+[2.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.631s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.632s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.642s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.642s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.642s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.662s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.662s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giacomo/Desktop/scoperta_ws/install/local_setup.ps1'
+[2.663s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/giacomo/Desktop/scoperta_ws/install/_local_setup_util_ps1.py'
+[2.664s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giacomo/Desktop/scoperta_ws/install/setup.ps1'
+[2.665s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giacomo/Desktop/scoperta_ws/install/local_setup.sh'
+[2.666s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/giacomo/Desktop/scoperta_ws/install/_local_setup_util_sh.py'
+[2.666s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giacomo/Desktop/scoperta_ws/install/setup.sh'
+[2.667s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giacomo/Desktop/scoperta_ws/install/local_setup.bash'
+[2.668s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giacomo/Desktop/scoperta_ws/install/setup.bash'
+[2.668s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/giacomo/Desktop/scoperta_ws/install/local_setup.zsh'
+[2.668s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/giacomo/Desktop/scoperta_ws/install/setup.zsh'

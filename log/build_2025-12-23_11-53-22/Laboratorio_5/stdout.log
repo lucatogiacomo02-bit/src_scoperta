@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/Laboratorio_5/Laboratorio_5.egg-info
+writing ../../build/Laboratorio_5/Laboratorio_5.egg-info/PKG-INFO
+writing dependency_links to ../../build/Laboratorio_5/Laboratorio_5.egg-info/dependency_links.txt
+writing entry points to ../../build/Laboratorio_5/Laboratorio_5.egg-info/entry_points.txt
+writing requirements to ../../build/Laboratorio_5/Laboratorio_5.egg-info/requires.txt
+writing top-level names to ../../build/Laboratorio_5/Laboratorio_5.egg-info/top_level.txt
+writing manifest file '../../build/Laboratorio_5/Laboratorio_5.egg-info/SOURCES.txt'
+reading manifest file '../../build/Laboratorio_5/Laboratorio_5.egg-info/SOURCES.txt'
+writing manifest file '../../build/Laboratorio_5/Laboratorio_5.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_5/build
+creating /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_5/build/lib
+creating /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_5/build/lib/Laboratorio_5
+copying Laboratorio_5/main.py -> /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_5/build/lib/Laboratorio_5
+copying Laboratorio_5/__init__.py -> /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_5/build/lib/Laboratorio_5
+running install
+running install_lib
+creating /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/lib/python3.10/site-packages/Laboratorio_5
+copying /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_5/build/lib/Laboratorio_5/main.py -> /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/lib/python3.10/site-packages/Laboratorio_5
+copying /home/giacomo/Desktop/scoperta_ws/build/Laboratorio_5/build/lib/Laboratorio_5/__init__.py -> /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/lib/python3.10/site-packages/Laboratorio_5
+byte-compiling /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/lib/python3.10/site-packages/Laboratorio_5/main.py to main.cpython-310.pyc
+byte-compiling /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/lib/python3.10/site-packages/Laboratorio_5/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/share/ament_index
+creating /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/share/ament_index/resource_index
+creating /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/share/ament_index/resource_index/packages
+copying resource/Laboratorio_5 -> /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/share/ament_index/resource_index/packages
+copying package.xml -> /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/share/Laboratorio_5
+running install_egg_info
+Copying ../../build/Laboratorio_5/Laboratorio_5.egg-info to /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/lib/python3.10/site-packages/Laboratorio_5-0.0.0-py3.10.egg-info
+running install_scripts
+Installing lab_5_runner script to /home/giacomo/Desktop/scoperta_ws/install/Laboratorio_5/lib/Laboratorio_5
+writing list of installed files to '/home/giacomo/Desktop/scoperta_ws/build/Laboratorio_5/install.log'
